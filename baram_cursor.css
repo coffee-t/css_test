@@ -1,0 +1,71 @@
+/* 마우스 커서 기본 */
+html,
+body,
+.fr-popup.emoticons,
+.fr-top,
+select.form-control,
+input[type=checkbox],
+input[type=radio],
+.opt
+{
+ cursor: url(https://upload.tgd.kr/20200509/037951df4f30a947951d9a65800ad9aa.png) 0 0, auto !important;
+
+ -webkit-animation: cursor 800ms infinite;
+ animation: cursor 800ms infinite;
+}
+
+/* 마우스 커서 링크 */
+#right-search-form>#right-search-btn,
+#board-info #board-info-bottom #addFavoriteBtn,
+#article-list #article-option-area>#article-option-area-toggle-btn,
+#article-list>.article-list-row>.item>.list-title>.list-writer>span,
+.reply > .reply-header > .reply-writer.logged,
+.reply-menu,
+.btn,
+.fr-toolbar .fr-command.fr-btn,
+.fr-popup .fr-command.fr-btn,
+.fr-view img,
+.pull-left,
+a {
+ cursor: url(https://upload.tgd.kr/20200509/037951df4f30a947951d9a65800ad9aa.png) 0 0, auto !important;
+
+ -webkit-animation: cursor 800ms infinite;
+ animation: cursor 800ms infinite;
+}
+
+/* 마우스 커서 텍스트 */
+span#viewers,
+#article-list #boardSearchForm .form-control,
+.fr-view,
+.fr-box.fr-basic.fr-element,
+input[type='text']
+ {
+ cursor: url(https://upload.tgd.kr/20200509/037951df4f30a947951d9a65800ad9aa.png) 0 0, auto !important;
+
+ -webkit-animation: cursor 800ms infinite;
+ animation: cursor 800ms infinite;
+}
+
+@-webkit-keyframes cursor {
+  0% {cursor: url(https://upload.tgd.kr/20200509/037951df4f30a947951d9a65800ad9aa.png), auto;}
+  13% {cursor: url(https://upload.tgd.kr/20200509/22333152a46620a6395a652f1699dea1.png), auto;}
+  25% {cursor: url(https://upload.tgd.kr/20200509/c4b897eadfbda54db21f05e293323990.png), auto;}
+  38% {cursor: url(https://upload.tgd.kr/20200509/978096f046637df3528b6261072035b6.png), auto;}
+  50% {cursor: url(https://upload.tgd.kr/20200509/65c3d7d6ab17a7e74fe1afed9ce7ca74.png), auto;}
+  63% {cursor: url(https://upload.tgd.kr/20200509/aa720e6c97d9452ea51ce608c8ebc0b4.png), auto;}
+  75% {cursor: url(https://upload.tgd.kr/20200509/cf7f8807ace6a3ba4e1d9f4fc8db798a.png), auto;}
+  88% {cursor: url(https://upload.tgd.kr/20200509/c608def91a9b62627f75cfd0eb128d6e.png), auto;}
+  100% {cursor: url(https://upload.tgd.kr/20200509/037951df4f30a947951d9a65800ad9aa.png), auto;}
+}    
+
+@keyframes cursor {
+  0% {cursor: url(https://upload.tgd.kr/20200509/037951df4f30a947951d9a65800ad9aa.png), auto;}
+  13% {cursor: url(https://upload.tgd.kr/20200509/22333152a46620a6395a652f1699dea1.png), auto;}
+  25% {cursor: url(https://upload.tgd.kr/20200509/c4b897eadfbda54db21f05e293323990.png), auto;}
+  38% {cursor: url(https://upload.tgd.kr/20200509/978096f046637df3528b6261072035b6.png), auto;}
+  50% {cursor: url(https://upload.tgd.kr/20200509/65c3d7d6ab17a7e74fe1afed9ce7ca74.png), auto;}
+  63% {cursor: url(https://upload.tgd.kr/20200509/aa720e6c97d9452ea51ce608c8ebc0b4.png), auto;}
+  75% {cursor: url(https://upload.tgd.kr/20200509/cf7f8807ace6a3ba4e1d9f4fc8db798a.png), auto;}
+  88% {cursor: url(https://upload.tgd.kr/20200509/c608def91a9b62627f75cfd0eb128d6e.png), auto;}
+  100% {cursor: url(https://upload.tgd.kr/20200509/037951df4f30a947951d9a65800ad9aa.png), auto;}
+}
